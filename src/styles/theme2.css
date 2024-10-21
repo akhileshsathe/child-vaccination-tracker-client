@@ -1,0 +1,287 @@
+/* COlor theme styles */
+
+
+:root {
+
+    /* --background:#ffeee9;
+    --primarytext:#0d0d0d;
+    --secondarytext:#313131;
+    --accent:#ef9273; */
+
+
+    --background: #051923ff;
+    --primarytext: #00a6fbff;
+    --secondarytext: #0582caff;
+    --accent: #003554ff;
+
+     /* --secondarytext: #dad7cdff;
+--primarytext: #a3b18aff;
+--accent: #588157ff;
+--hunter-green: #3a5a40ff;
+--background: #344e41ff; */
+    
+     /* --background:#c9ada7ff;
+    --primarytext:#4a4e69ff;
+    --secondarytext:#0582caff;
+    --accent:#003554ff; */
+/* 
+    --background: #ddc4ddff;
+--primarytext: #dccfecff;
+--secondarytext: #a997dfff;
+--accent: #4f517dff;
+--d: #1a3a3aff; */
+    /* --space-cadet: #22223bff;
+    --independence: #4a4e69ff;
+    --heliotrope-gray: #9a8c98ff;
+    --silver-pink: #c9ada7ff;
+    --isabelline: #f2e9e4ff; */
+}
+
+.primary {
+    color: var(--primarytext);
+
+}
+
+.title {
+    font-family: Montserrat;
+    font-size: 4rem;
+}
+
+.subtitle {
+    font-family: Montserrat;
+    font-size: 2rem;
+}
+
+.secondary {
+    color: var(--secondarytext);
+}
+
+.bAccent {
+    background-color: var(--accent);
+}
+
+.fAccent {
+    color: var(--accent);
+}
+
+body {
+    background-color: var(--background);
+
+}
+
+
+.flex {
+    display: flex;
+}
+.text-center{
+    text-align: center;
+}
+.text-xl{
+    font-size: 3rem;
+}
+.text-3xl{
+    font-size: 9rem;
+}
+
+.iconInputContainer:hover {
+    box-shadow: var(--accent) 0px 0px 0px 2px, var(--accent) 0px 4px 6px -1px, var(--accent) 0px 1px 0px inset;
+}
+
+.iconInputContainer:focus {
+    box-shadow: var(--accent) 0px 0px 0px 2px, var(--accent) 0px 4px 6px -1px, var(--accent) 0px 1px 0px inset;
+}
+
+/* Page divisions */
+.container {
+
+    margin: 0;
+    display: flex;
+/* height: 100vh; */
+}
+.LoginAside{
+    display: flex;
+    height: 100vh;
+}
+.SignupAside{
+    display: flex;
+    /* height: 100vh; */
+}
+
+
+.pageaside {
+    width: 15%;
+    display: flex;
+
+    background-repeat: repeat;
+    max-height: 100%;
+
+}
+
+.regform {
+    width: 85%;
+    display: flex;
+
+}
+
+.reg-form {
+    margin: 2em 3em;
+}
+/* Logo styling */
+.logo {
+    margin: 0 1em;
+    display: flex;
+
+    align-self: center;
+}
+.logo-aside {
+    margin: 1em auto;
+    display: flex;
+
+   align-self: flex-start;
+}
+
+.logo-large {
+    width: 12vw;
+}
+
+.logo-medium {
+    width: 8vw;
+}
+
+.logo-small {
+    width: 4vw;
+}
+
+/* Form input styles */
+label {
+
+    font-weight: bold;
+}
+
+.Form-input {
+    border: none;
+    width: 100%;
+
+    height: 30px;
+    margin-left: 0.3em;
+
+    outline: none;
+    font-weight: normal;
+    font-size: large;
+
+}
+
+
+.submitButton {
+
+    border: none;
+    margin: 0.5em 0;
+    padding: 6px 20px;
+    font-weight: normal;
+    font-size: large;
+    outline: none;
+    border-radius: 6px;
+}
+
+.login-button:visited {
+    color: white;
+}
+
+.login-button {
+    color: white;
+    font-weight: bold;
+}
+
+.st {
+    border-top: 1px solid white;
+    padding-right: 4em;
+
+}
+
+.material-symbols-outlined {
+    align-self: center;
+    
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+.formicon{
+    background-color: white;
+}
+
+
+.iconInputContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 10px;
+    padding: 7px 25px 7px 14px;
+    margin: 0.3em 0 0.5em 0;
+}
+
+.nav-image-items {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+}
+.nav-bar{
+  margin: 0;  
+
+  display: flex;
+}
+.nav-links {
+    display: flex;
+    width: 100%;
+    justify-content:right;
+    
+    margin-right: 1em;
+}
+
+.nav-item {
+    display: flex;
+    
+    padding: 1em;
+    align-items: center;
+    
+    
+}
+.nav-item:hover {
+    background-color: var(--secondarytext);
+    color: var(--background);
+}
+
+.nav-items:focus {
+    background-color: var(--background);
+}
+.nav-icon{
+    margin-right: 0.2em;
+}
+
+.tracker{
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+.tracker-col{
+    display: flex;
+    flex-direction: row;
+}
+.tracker-row{
+    display: flex;
+    flex-direction: column;
+}
+.fGreen{
+    color: green;
+}
+.fRed{
+    color: red;
+}
+table,td,tr{
+    border: 1px solid wheat;
+    color: wheat;
+}
+
